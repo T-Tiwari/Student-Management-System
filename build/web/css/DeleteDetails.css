@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../image/login background.jpg");
+    background-size: cover;
+}
+.maindiv{
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: whitesmoke
+}
+.container{
+    background-color: rgba(255, 235, 205, 0);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 55px;
+}
+form{
+    margin-left: 20px;
+}
+form input{
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+form button{
+    width: 360px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: brown;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: rgb(93, 165, 97);
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: blanchedalmond;   
+}
+.maindiv{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(242, 181, 108);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 150px;
+    text-align: center;
+    padding-top: 70px;
+}
+.button{
+    margin-top: 50px;
+    
+    color: black;
+}
+a{
+   text-decoration: none; 
+}
